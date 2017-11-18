@@ -1,14 +1,15 @@
 +++
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
-title = "Example Talk"
-time_start = 2030-06-01T13:00:00
-time_end = 2030-06-01T15:00:00
+title = "The evaluation of genetic association studies using the multiple marginal models appoach"
+time_start = 2016-12-16T08:00:00
+time_end = 2016-12-16T17:00:00
 abstract = ""
 abstract_short = ""
-event = "Academic Theme Conference"
-event_url = "https://example.org"
-location = "London, United Kingdom"
+event = "The multiple marginal models appoach"
+event_url = "https://www.biostat.uni-hannover.de/biostatistik.html"
+location = "Hannover, Germany"
+
 
 # Is this a selected talk? (true/false)
 selected = false
@@ -16,11 +17,10 @@ selected = false
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["deep-learning"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "http://htmlpreview.github.io/?https://github.com/AKitsche/Talk_MMM_GA/blob/master/MMM_GA_Kitsche.html#1"
 url_video = ""
 url_code = ""
 
@@ -33,9 +33,9 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+image = ""
+caption = ""
 
 +++
 
-Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
+This talk was part of the workshop on using the multiple marginal models approach introduced by [Pipper et al.](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2011.01005.x/abstract)

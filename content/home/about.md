@@ -10,31 +10,35 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Data Science",
+    "Machine Learning",
+    "Biostatistics"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Biostatistics"
+  institution = "Leibniz Unversität Hannover"
+  year = 2014
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "MSc in Plant Biotechnology"
+  institution = "Leibniz Unversität Hannover"
+  year = 2010
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "BSc in Plant Biotechnology"
+  institution = "Leibniz Unversität Hannover"
   year = 2008
  
 +++
 
-# Biography
+# About me
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hey folks, this web site provides some information about my activities in data science using [R](https://cran.r-project.org/).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I have a Masters degree in Plant Biotechnology with focus on molcular plant breeding and Biostatistics. I earned an PhD at the [Institute of Biostatistics](https://www.biostat.uni-hannover.de/biostatistik.html?&L=1). During my studies I started learning R and wrote some small packages stored on [my GitHub page](https://github.com/AKitsche).
+This blog will showcase some of the analyses I have been doing with different data sets.
+
+In addition I propagate and cultivate Bonsai trees for several years (maybe decades). Within this blog I want to document the developement of some of my favourite trees. 
+

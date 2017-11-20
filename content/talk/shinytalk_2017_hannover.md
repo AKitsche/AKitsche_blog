@@ -1,13 +1,13 @@
 +++
-date = 2017-01-01T00:00:00  # Schedule page publish date.
+date = 2017-01-26T00:00:00  # Schedule page publish date.
 
-title = "The evaluation of genetic association studies using the multiple marginal models appoach"
-time_start = 2016-12-16T08:00:00
-time_end = 2016-12-16T17:00:00
+title = "How to implement a shiny web App for inferential statistics"
+time_start = 2017-01-26T08:00:00
+time_end = 2017-01-26T17:00:00
 abstract = ""
 abstract_short = ""
-event = "The multiple marginal models appoach"
-event_url = "https://www.biostat.uni-hannover.de/biostatistik.html"
+event = "Biometric Seminar Leibniz University Hannover"
+event_url = "https://www.biostat.uni-hannover.de/fileadmin/institut/pdf/Shiny2017.pdf"
 location = "Hannover, Germany"
 
 
@@ -20,7 +20,7 @@ selected = false
 
 # Links (optional).
 url_pdf = ""
-url_slides = "http://htmlpreview.github.io/?https://github.com/AKitsche/Talk_MMM_GA/blob/master/MMM_GA_Kitsche.html#1"
+url_slides = "http://htmlpreview.github.io/?https://github.com/AKitsche/shiny_talk/blob/master/shiny_talk_slides.html#1"
 url_video = ""
 url_code = ""
 
@@ -38,4 +38,4 @@ caption = ""
 
 +++
 
-This talk was part of the workshop on using the multiple marginal models approach introduced by [Pipper et al.](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2011.01005.x/abstract)
+This talk was part of Biometric Seminar at the Leibniz University of Hannover.

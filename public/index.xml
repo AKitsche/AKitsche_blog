@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data manipulation in R</title>
+      <link>/talk/dplyrtalk_2017_hannover/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/dplyrtalk_2017_hannover/</guid>
+      <description>&lt;p&gt;This talk was part of the Machine Learning/Data Science Meet up Hannover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Cardiolipin supports respiratory enzymes in plants in different ways</title>
       <link>/publication/fps_petereit_etal/</link>
       <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
@@ -29,11 +39,21 @@
     </item>
     
     <item>
-      <title>The evaluation of genetic association studies using the multiple marginal models appoach</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <title>How to implement a shiny web App for inferential statistics</title>
+      <link>/talk/shinytalk_2017_hannover/</link>
+      <pubDate>Thu, 26 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/example-talk/</guid>
+      <guid>/talk/shinytalk_2017_hannover/</guid>
+      <description>&lt;p&gt;This talk was part of Biometric Seminar at the Leibniz University of Hannover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The evaluation of genetic association studies using the multiple marginal models appoach</title>
+      <link>/talk/mmm_talk_hannover/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/mmm_talk_hannover/</guid>
       <description>&lt;p&gt;This talk was part of the workshop on using the multiple marginal models approach introduced by &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2011.01005.x/abstract&#34; target=&#34;_blank&#34;&gt;Pipper et al.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -1185,24 +1205,6 @@ Figure 1: A fancy pie chart.
       <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>/publication/jacs_kitsche_schaarschmidt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistical evaluation of toxicological assays with zero or near-to-zero proportions or counts in the concurrent negative control group: a tutorial</title>
-      <link>/publication/jpbiostat_jaki_etal/</link>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/jpbiostat_jaki_etal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testing for qualitative interaction using ratios of treatment differences</title>
-      <link>/publication/sim_kitsche_hothorn/</link>
-      <pubDate>Wed, 30 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/sim_kitsche_hothorn/</guid>
       <description></description>
     </item>
     

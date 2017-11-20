@@ -17,7 +17,7 @@ authors = ["A Kitsche", "C Ritz", "LA Hothorn"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Computational Statistics & Data Analysis"
+publication = "Human Heredity"
 publication_short = ""
 
 # Abstract and optional shortened version.

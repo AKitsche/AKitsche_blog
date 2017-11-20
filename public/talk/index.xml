@@ -11,12 +11,72 @@
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>The evaluation of genetic association studies using the multiple marginal models appoach</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <title>Data manipulation in R</title>
+      <link>/talk/dplyrtalk_2017_hannover/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/example-talk/</guid>
+      <guid>/talk/dplyrtalk_2017_hannover/</guid>
+      <description>&lt;p&gt;This talk was part of the Machine Learning/Data Science Meet up Hannover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to implement a shiny web App for inferential statistics</title>
+      <link>/talk/shinytalk_2017_hannover/</link>
+      <pubDate>Thu, 26 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/shinytalk_2017_hannover/</guid>
+      <description>&lt;p&gt;This talk was part of Biometric Seminar at the Leibniz University of Hannover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The evaluation of genetic association studies using the multiple marginal models appoach</title>
+      <link>/talk/mmm_talk_hannover/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/mmm_talk_hannover/</guid>
       <description>&lt;p&gt;This talk was part of the workshop on using the multiple marginal models approach introduced by &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2011.01005.x/abstract&#34; target=&#34;_blank&#34;&gt;Pipper et al.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testing for qualitative interaction using ratios of treatment differences</title>
+      <link>/talk/icsi_2013_hannover/</link>
+      <pubDate>Tue, 24 Sep 2013 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/icsi_2013_hannover/</guid>
+      <description>&lt;p&gt;This talk was part of the International Conference on Simultaneous Inference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessment of the Heterogeneity of the Treatment Effect among Subgroups by Detecting Qualitative Interactions</title>
+      <link>/talk/ibc_2012_kobe/</link>
+      <pubDate>Tue, 28 Aug 2012 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/ibc_2012_kobe/</guid>
+      <description>&lt;p&gt;This talk was part of the XXVIth International Biometric Conference Kobe, Japan.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluation of interaction effects with user defined contrasts in the cell means model</title>
+      <link>/talk/biomcol_2011_zurich/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/biomcol_2011_zurich/</guid>
+      <description>&lt;p&gt;This talk was part of the 2nd conference of the Central European Network Zurich, Switzerland.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simultaneous confidence intervals incorporating historical control data</title>
+      <link>/talk/ncsc_2010_lyon/</link>
+      <pubDate>Mon, 27 Sep 2010 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/ncsc_2010_lyon/</guid>
+      <description>&lt;p&gt;This talk was part of the Non-Clinical Statistics Conference Lyon, France.&lt;/p&gt;
 </description>
     </item>
     

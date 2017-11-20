@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>/publication/fps_petereit_etal/</loc>
+      <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/humanheredity_kitsche_etal/</loc>
+      <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -43,6 +61,15 @@
     
       <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/ol_tautz_etal/</loc>
+      <lastmod>2016-05-24T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -113,8 +140,8 @@
     
     <url>
     
-      <loc>/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <loc>/post/2015-07-23-r-rmarkdown/</loc>
+      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     </url>
     
   
@@ -122,8 +149,26 @@
     
     <url>
     
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/publication/jacs_kitsche_schaarschmidt/</loc>
+      <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/jpbiostat_jaki_etal/</loc>
+      <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/sim_kitsche_hothorn/</loc>
+      <lastmod>2014-04-30T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -140,8 +185,8 @@
     
     <url>
     
-      <loc>/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <loc>/publication/ps_kitsche/</loc>
+      <lastmod>2014-01-09T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -149,9 +194,17 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <loc>/publication/phh_kitsche_kalesse/</loc>
+      <lastmod>2013-05-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/csda_kitsche_etal/</loc>
+      <lastmod>2012-12-31T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -160,7 +213,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -249,7 +302,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

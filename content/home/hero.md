@@ -21,9 +21,8 @@ weight = 3
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
 +++
-
-I'm Andreas, a passionate data scientist using R. I'm also a bonsai enthusiast :deciduous_tree: and latin dancer :dancer:
-
+I'm Andreas, a passionate data scientist using R.   
+I'm also a bonsai enthusiast :seedling: and latin dancer :dancer:
 
 <script type="text/javascript">
   (function defer() {

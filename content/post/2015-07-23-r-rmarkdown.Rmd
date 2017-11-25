@@ -40,7 +40,7 @@ apiVersion <- "26.0"
 Please note: do not forget your security token in the password field. The [Salesforce community](https://success.salesforce.com/answers?id=90630000000glADAAY) shows how to reset the security token.
 
 
-Unfortunatly we probably get an error: *Error in curl::curl_fetch_memory(url, handle = handle) : Couldn't resolve host name*, because the Continental network environment uses HTTP Proxy. To pick out the proxy setting we can use the `ie_proxy_info()` function from the [curl](https://cran.r-project.org/web/packages/curl/index.html) R add-on package.:
+Unfortunatly we probably get an error: *Error in curl::curl_fetch_memory(url, handle = handle) : Couldn't resolve host name*, because the corporate network environment uses HTTP Proxy. To pick out the proxy setting we can use the `ie_proxy_info()` function from the [curl](https://cran.r-project.org/web/packages/curl/index.html) R add-on package.:
 
 ```{r eval = FALSE}
 #install.packages("curl")
@@ -49,12 +49,12 @@ ie_proxy_info()
 ```
 
 
-Obviously the Continental network environment uses a global [proxy auto-configuration (PUC)](https://en.wikipedia.org/wiki/Proxy_auto-config) file that defines how web browsers and other user agents can automatically choose the appropriate proxy server. We can get the info of the proxy for a specific URL using the `ie_get_proxy_for_url()` function:
+Obviously the corporate network environment uses a global [proxy auto-configuration (PUC)](https://en.wikipedia.org/wiki/Proxy_auto-config) file that defines how web browsers and other user agents can automatically choose the appropriate proxy server. We can get the info of the proxy for a specific URL using the `ie_get_proxy_for_url()` function:
 
 ```{r eval = FALSE}
 ie_get_proxy_for_url(target_url = "https://login.salesforce.com/")
 ```
-The function returns a character string with two proxies and their corresponding port. We will further use the first proxy displayed: *con-noh-asg-01.conti.de*. Now we have to set the proxy configurations with the `set_config()` and  ` use_proxy()` functions from the [httr](https://cran.r-project.org/web/packages/httr/index.html) R add-on package:
+The function returns a character string with two proxies and their corresponding port. We will further use the first proxy displayed: **. Now we have to set the proxy configurations with the `set_config()` and  ` use_proxy()` functions from the [httr](https://cran.r-project.org/web/packages/httr/index.html) R add-on package:
 
 ```{r eval = FALSE}
 #install.packages("httr")

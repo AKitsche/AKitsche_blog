@@ -27,13 +27,13 @@ instanceURL &lt;- &quot;https://login.salesforce.com/&quot;
 apiVersion &lt;- &quot;26.0&quot;
 (session &lt;- rforcecom.login(username, password, instanceURL, apiVersion))</code></pre>
 <p>Please note: do not forget your security token in the password field. The <a href="https://success.salesforce.com/answers?id=90630000000glADAAY">Salesforce community</a> shows how to reset the security token.</p>
-<p>Unfortunatly we probably get an error: <em>Error in curl::curl_fetch_memory(url, handle = handle) : Couldn’t resolve host name</em>, because the Continental network environment uses HTTP Proxy. To pick out the proxy setting we can use the <code>ie_proxy_info()</code> function from the <a href="https://cran.r-project.org/web/packages/curl/index.html">curl</a> R add-on package.:</p>
+<p>Unfortunatly we probably get an error: <em>Error in curl::curl_fetch_memory(url, handle = handle) : Couldn’t resolve host name</em>, because the corporate network environment uses HTTP Proxy. To pick out the proxy setting we can use the <code>ie_proxy_info()</code> function from the <a href="https://cran.r-project.org/web/packages/curl/index.html">curl</a> R add-on package.:</p>
 <pre class="r"><code>#install.packages(&quot;curl&quot;)
 library(curl)
 ie_proxy_info()</code></pre>
-<p>Obviously the Continental network environment uses a global <a href="https://en.wikipedia.org/wiki/Proxy_auto-config">proxy auto-configuration (PUC)</a> file that defines how web browsers and other user agents can automatically choose the appropriate proxy server. We can get the info of the proxy for a specific URL using the <code>ie_get_proxy_for_url()</code> function:</p>
+<p>Obviously the corporate network environment uses a global <a href="https://en.wikipedia.org/wiki/Proxy_auto-config">proxy auto-configuration (PUC)</a> file that defines how web browsers and other user agents can automatically choose the appropriate proxy server. We can get the info of the proxy for a specific URL using the <code>ie_get_proxy_for_url()</code> function:</p>
 <pre class="r"><code>ie_get_proxy_for_url(target_url = &quot;https://login.salesforce.com/&quot;)</code></pre>
-<p>The function returns a character string with two proxies and their corresponding port. We will further use the first proxy displayed: <em>con-noh-asg-01.conti.de</em>. Now we have to set the proxy configurations with the <code>set_config()</code> and <code>use_proxy()</code> functions from the <a href="https://cran.r-project.org/web/packages/httr/index.html">httr</a> R add-on package:</p>
+<p>The function returns a character string with two proxies and their corresponding port. We will further use the first proxy displayed: **. Now we have to set the proxy configurations with the <code>set_config()</code> and <code>use_proxy()</code> functions from the <a href="https://cran.r-project.org/web/packages/httr/index.html">httr</a> R add-on package:</p>
 <pre class="r"><code>#install.packages(&quot;httr&quot;)
 library(httr)
 proxy_for_url &lt;- &quot;your proxy&quot; #from ie_get_proxy_for_url(target_url = &quot;https://login.salesforce.com/&quot;)

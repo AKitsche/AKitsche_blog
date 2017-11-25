@@ -61,6 +61,26 @@
     </item>
     
     <item>
+      <title>Bayesian Model Averaging</title>
+      <link>/talk/bma_2011_hannover/</link>
+      <pubDate>Mon, 21 Nov 2011 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/bma_2011_hannover/</guid>
+      <description>&lt;p&gt;This talk was held at the Journal Club at the Institute of Biostatistics Hannover, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Multiple Comparisons</title>
+      <link>/talk/mmc_plot_2011_hannover/</link>
+      <pubDate>Wed, 09 Nov 2011 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/mmc_plot_2011_hannover/</guid>
+      <description>&lt;p&gt;This talk was held at the Journal Club at the Institute of Biostatistics Hannover, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Evaluation of interaction effects with user defined contrasts in the cell means model</title>
       <link>/talk/biomcol_2011_zurich/</link>
       <pubDate>Mon, 12 Sep 2011 00:00:00 +0200</pubDate>

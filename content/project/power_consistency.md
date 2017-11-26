@@ -29,4 +29,4 @@ caption = ""
 +++
 In this study power and sample size calculations for the analysis of treatment-by-subgroup interactions are proposed. Therefore, the interaction effect is either defined via product-type interaction  contrasts or as ratio of treatment differences. The latter formulation allows besides the detection of interactions also the assessment of the consistency/heterogeneity of the subgroup-specific treatment effect by the definition of an inconsistency margin.
 
-You can find the pdf of a detailed article [here](/files/pdf/PowerConsistency_SIM.pdf). Furthermore, the slides from a corresponding talk are given [here](files/pdf/JournalClub_Power.pdf).
+You can find the pdf of a detailed article [here](/files/pdf/PowerConsistency_SIM.pdf). Furthermore, the slides from a corresponding talk are given [here](/files/JournalClub_Power.pdf).

@@ -6,7 +6,7 @@ time_start = 2016-12-16T08:00:00
 time_end = 2016-12-16T17:00:00
 abstract = ""
 abstract_short = ""
-event = "The multiple marginal models appoach"
+event = "Internatioal workshop on the multiple marginal models appoach"
 event_url = "https://www.biostat.uni-hannover.de/biostatistik.html"
 location = "Hannover, Germany"
 

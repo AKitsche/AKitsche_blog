@@ -38,8 +38,8 @@ weight = 5
 
 Hey folks, this web site provides some information about my activities in data science using [R](https://cran.r-project.org/).
 
-I have a Masters degree in Plant Biotechnology with focus on molcular plant breeding and Biostatistics. I earned an PhD at the [Institute of Biostatistics](https://www.biostat.uni-hannover.de/biostatistik.html?&L=1). During my studies I started learning R and wrote some small packages stored on [my GitHub page](https://github.com/AKitsche).
+I have a Masters degree in Plant Biotechnology with focus on Biostatistics. I earned a PhD at the [Institute of Biostatistics](https://www.biostat.uni-hannover.de/biostatistik.html?&L=1) at the [Leibniz University of Hannover](https://www.uni-hannover.de/en/?no_cache=1). During my studies I started learning R and wrote some small packages stored on [my GitHub page](https://github.com/AKitsche).
 This blog will showcase some of the analyses I have been doing with different data sets.
 
-In addition I propagate and cultivate Bonsai trees for several years (maybe decades). Within this blog I want to document the developement of some of my favourite trees. 
+In addition I propagate and cultivate Bonsai trees for several years. Within this blog I want to document the developement of some of my favourite trees. 
 

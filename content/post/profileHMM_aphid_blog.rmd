@@ -1,0 +1,13 @@
+---
+title: "Applying profile HMM to classify chemical products"
+author: "Andreas Kitsche"
+date: 2017-12-30T21:13:14-05:00
+categories: ["R"]
+tags: ["HMM", "R"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+In 2013 my research colleague [Markus Kalesse](https://www.kalesse.uni-hannover.de/markus_kalesse.html) and I published a study on [Configurational assignment of secondary hydroxyl groups and methyl branches in polyketide natural products through bioinformatic analysis of the ketoreductase domain](http://onlinelibrary.wiley.com/doi/10.1002/cbic.201300063/full). During the project I programmed 

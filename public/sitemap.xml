@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>/post/profilehmm_aphid_blog/</loc>
+      <lastmod>2017-04-30T21:13:14-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/fps_petereit_etal/</loc>
       <lastmod>2017-02-08T00:00:00+00:00</lastmod>
     </url>
@@ -40,6 +49,8 @@
     
     
     <url>
+    
+      <xhtml:link rel="alternate" href="/tags/academic/" hreflang="en"/>
     
       <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
@@ -221,6 +232,16 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/tags/academic/" hreflang="en"/>
+    
+      <loc>/tags/academic/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/2/</loc>
       <lastmod>2017-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -241,7 +262,28 @@
     
     <url>
     
+      <loc>/tags/bonsai/</loc>
+      <lastmod>2017-04-30T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/bonsai/</loc>
+      <lastmod>2017-04-30T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/</loc>
+      <lastmod>2017-04-30T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -301,7 +343,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2017-04-30T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     

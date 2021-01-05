@@ -1,0 +1,58 @@
+---
+title: "TidyTuesday Week 52 2020"
+author: "Andreas Kitsche"
+date: "2021-01-05"
+categories: ["R"]
+tags: ["tidytuesday", "R", "python", "rmarkdown"]
+bibliography: ["references.bib", "references_auto.bib"]
+code_folding: hide
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Hey folks,</p>
+<p>this is the first of a series of blog post where I want to participate on the <a href="https://github.com/rfordatascience/tidytuesday/blob/master/README.md">tidytuesday</a> weekly social data project in R.</p>
+<blockquote>
+<p>The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their wrangling and data visualization skills independent of drawing conclusions.</p>
+</blockquote>
+<p>The goal of this series is to help me</p>
+<ul>
+<li>practice data visualization and data wrangling in R (<span class="citation">R Core Team (2019)</span>) using the tidyverse (<span class="citation">Wickham et al. (2019)</span>)</li>
+<li>adopt this skillset to learn Python</li>
+<li>master to publish the applications using <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">R Markdown</a></li>
+</ul>
+<div id="results" class="section level2 tabset">
+<h2>Results</h2>
+<div id="tab-one" class="section level3">
+<h3>Tab One</h3>
+<pre class="r"><code>head(mtcars)
+##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
+</div>
+<div id="tab-two" class="section level3">
+<h3>Tab Two</h3>
+<pre class="r"><code>par(mar = c(4, 4, .5, .1))
+plot(mpg ~ hp, data = mtcars, pch = 19)</code></pre>
+<p><img src="/post/tidytuesday_52_2020_files/figure-html/unnamed-chunk-2-1.png" width="480" /></p>
+</div>
+</div>
+<div id="section" class="section level2 unnumbered">
+<h2 class="unnumbered"></h2>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-R-base" class="csl-entry">
+R Core Team. 2019. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org">https://www.R-project.org</a>.
+</div>
+<div id="ref-tidyverse" class="csl-entry">
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. <span>“Welcome to the <span class="nocase">tidyverse</span>.”</span> <em>Journal of Open Source Software</em> 4 (43): 1686. <a href="https://doi.org/10.21105/joss.01686">https://doi.org/10.21105/joss.01686</a>.
+</div>
+</div>
+</div>

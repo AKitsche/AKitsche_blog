@@ -9,14 +9,12 @@ tags: ["salesforce", "R"]
 
 
 <p>Hey folks,</p>
-<p>this blog post will give a short introduction on how to connect <a href="https://www.salesforce.com">salesforce.com</a> with <a href="https://cran.r-project.org/">R</a>. According to <a href="http://de.gravatar.com/hiratake55">Takekatsu Hiramura</a></p>
+<p>this blog post will give a short introduction on how to connect <a href="https://www.salesforce.com">salesforce.com</a> with <a href="https://cran.r-project.org/">R</a>.
+According to <a href="http://de.gravatar.com/hiratake55">Takekatsu Hiramura</a></p>
 <blockquote>
 <p>R statistical computing environment is the most populous statistical computing software, and Salesforce.com is the world´s most innovative cloud-computing based SaaS (Software-as-a-Service) CRM package.</p>
 </blockquote>
-<div class="figure">
-<img src="/img/R_salesforce_blog_picture.png" />
-
-</div>
+<p><img src="/img/R_salesforce_blog_picture.png" /></p>
 <p>To connect R with salesforce.com Takekatsu Hiramura developed the R add-on package <a href="https://cran.r-project.org/web/packages/RForcecom/">RForcecom</a>. The source code of the package is available from <a href="https://github.com/hiratake55/RForcecom">github</a>. You can install the package from <a href="http://cran.r-project.org/">CRAN</a>:</p>
 <pre class="r"><code>install.packages(&quot;RForcecom&quot;)
 library(RForcecom)</code></pre>
@@ -45,7 +43,8 @@ set_config(
             password = &quot;windows_password&quot;, 
             auth = &quot;ntlm&quot;)
 )</code></pre>
-<p>Under some circumstances you will get the following error message at this point: <em>Error in curl::curl_fetch_memory(url, handle = handle) : Problem with the SSL CA cert (path? access rights?)</em>. In this case your security certificate, e.g. <em>curl-ca-bundle.crt</em> is located in the wrong folder. You have to paste the file into <em>C:/mingw64/ssl/certs</em>.</p>
+<p>Under some circumstances you will get the following error message at this point: <em>Error in curl::curl_fetch_memory(url, handle = handle) : Problem with the SSL CA cert (path? access rights?)</em>.
+In this case your security certificate, e.g. <em>curl-ca-bundle.crt</em> is located in the wrong folder. You have to paste the file into <em>C:/mingw64/ssl/certs</em>.</p>
 <p>Et voilà, we reached our goal to connect R with salesforce.com:</p>
 <pre class="r"><code>session &lt;- rforcecom.login(username = username, password = password, loginURL = instanceURL, apiVersion = apiVersion)
 session</code></pre>

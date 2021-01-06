@@ -11,6 +11,67 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>TidyTuesday Week 52 2020</title>
+      <link>/post/tidytuesday_52_2020/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tidytuesday_52_2020/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/panelset/panelset.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/panelset/panelset.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Hey folks,&lt;/p&gt;
+&lt;p&gt;this is the first of a series of blog post where I want to participate on the &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34;&gt;tidytuesday&lt;/a&gt; weekly social data project in R.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their wrangling and data visualization skills independent of drawing conclusions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The goal of this series is to help me&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;practice data visualization and data wrangling in R (&lt;span class=&#34;citation&#34;&gt;R Core Team (2019)&lt;/span&gt;) using the tidyverse (&lt;span class=&#34;citation&#34;&gt;Wickham et al. (2019)&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;adopt this skillset to learn Python&lt;/li&gt;
+&lt;li&gt;master to publish the applications using &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/&#34;&gt;R Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;panelset&#34;&gt;
+&lt;!-- First panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;R code&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Check the R code below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;lm(mpg ~ drat, data = mtcars)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!-- Second panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;Stata code&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;regress y x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!-- Third panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;R output&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = mpg ~ drat, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         drat  
+##      -7.525        7.678&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-R-base&#34; class=&#34;csl-entry&#34;&gt;
+R Core Team. 2019. &lt;em&gt;R: A Language and Environment for Statistical Computing&lt;/em&gt;. Vienna, Austria: R Foundation for Statistical Computing. &lt;a href=&#34;https://www.R-project.org&#34;&gt;https://www.R-project.org&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-tidyverse&#34; class=&#34;csl-entry&#34;&gt;
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. &lt;span&gt;“Welcome to the &lt;span class=&#34;nocase&#34;&gt;tidyverse&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Open Source Software&lt;/em&gt; 4 (43): 1686. &lt;a href=&#34;https://doi.org/10.21105/joss.01686&#34;&gt;https://doi.org/10.21105/joss.01686&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data manipulation in R</title>
       <link>/talk/dplyrtalk_2017_hannover/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0100</pubDate>
@@ -28,31 +89,24 @@
       <guid>/post/bonsai_impression_spring_2018/</guid>
       <description>&lt;p&gt;During the last weeks I did some work including root cutting, potting and styling on a couple of my pre-bonsai trees. My collection consists of a stock of approximately 100 trees ranging from European oak (&lt;a href=&#34;https://en.wikipedia.org/wiki/Quercus_robur&#34;&gt;&lt;em&gt;Quercus robur&lt;/em&gt;&lt;/a&gt;), small-leaved lime (&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;), pin oak (&lt;a href=&#34;https://en.wikipedia.org/wiki/Quercus_palustris&#34;&gt;&lt;em&gt;Quercus palustris&lt;/em&gt;&lt;/a&gt;), horse-chestnut (&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;), European beech (&lt;a href=&#34;https://en.wikipedia.org/wiki/Fagus_sylvatica&#34;&gt;&lt;em&gt;Fagus sylvatica&lt;/em&gt;&lt;/a&gt;), &lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;, Common hazel (&lt;em&gt;Corylus avellana&lt;/em&gt;), Creeping pine (&lt;a href=&#34;https://en.wikipedia.org/wiki/Pinus_mugo&#34;&gt;&lt;em&gt;Pinus mugo&lt;/em&gt;&lt;/a&gt;), Scots pine (&lt;a href=&#34;https://en.wikipedia.org/wiki/Scots_pine&#34;&gt;&lt;em&gt;Pinus sylvestris&lt;/em&gt;&lt;/a&gt;), English Yew (&lt;a href=&#34;https://en.wikipedia.org/wiki/Taxus_baccata&#34;&gt;&lt;em&gt;Taxus Baccata&lt;/em&gt;&lt;/a&gt;), … . Most of them are currently planted in the field.&lt;/p&gt;
 &lt;p&gt;The following gallery shows some impression in spring 2018:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161032.jpg&#34; alt=&#34;Acer monspessulanum&#34; style=&#34;width:70.0%&#34; /&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Acer_monspessulanum&#34;&gt;Acer monspessulanum&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_174619.jpg&#34; alt=&#34;Test&#34; style=&#34;width:70.0%&#34; /&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161132.jpg&#34; style=&#34;width:70.0%&#34; /&gt; Collection of pre-bonsais currently planted in the field&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/IMG_20180428_161302.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
-
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161032.jpg&#34; alt=&#34;Acer monspessulanum&#34; style=&#34;width:70.0%&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Acer_monspessulanum&#34;&gt;Acer monspessulanum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_174619.jpg&#34; alt=&#34;Test&#34; style=&#34;width:70.0%&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161132.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+Collection of pre-bonsais currently planted in the field&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161302.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161146.jpg&#34; style=&#34;width:70.0%&#34; /&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/IMG_20180428_161207.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
-
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161146.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161207.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/IMG_20180428_161221.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
-
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161221.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/IMG_20180428_161232.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
-
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161232.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/IMG_20180414_131952_BURST001_COVER.jpg&#34; style=&#34;width:70.0%&#34; /&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180414_131952_BURST001_COVER.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -122,14 +176,12 @@
       
       <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>&lt;p&gt;Hey folks,&lt;/p&gt;
-&lt;p&gt;this blog post will give a short introduction on how to connect &lt;a href=&#34;https://www.salesforce.com&#34;&gt;salesforce.com&lt;/a&gt; with &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R&lt;/a&gt;. According to &lt;a href=&#34;http://de.gravatar.com/hiratake55&#34;&gt;Takekatsu Hiramura&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;this blog post will give a short introduction on how to connect &lt;a href=&#34;https://www.salesforce.com&#34;&gt;salesforce.com&lt;/a&gt; with &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R&lt;/a&gt;.
+According to &lt;a href=&#34;http://de.gravatar.com/hiratake55&#34;&gt;Takekatsu Hiramura&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;R statistical computing environment is the most populous statistical computing software, and Salesforce.com is the world´s most innovative cloud-computing based SaaS (Software-as-a-Service) CRM package.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/R_salesforce_blog_picture.png&#34; /&gt;
-
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/img/R_salesforce_blog_picture.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;To connect R with salesforce.com Takekatsu Hiramura developed the R add-on package &lt;a href=&#34;https://cran.r-project.org/web/packages/RForcecom/&#34;&gt;RForcecom&lt;/a&gt;. The source code of the package is available from &lt;a href=&#34;https://github.com/hiratake55/RForcecom&#34;&gt;github&lt;/a&gt;. You can install the package from &lt;a href=&#34;http://cran.r-project.org/&#34;&gt;CRAN&lt;/a&gt;:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;RForcecom&amp;quot;)
 library(RForcecom)&lt;/code&gt;&lt;/pre&gt;
@@ -158,7 +210,8 @@ set_config(
             password = &amp;quot;windows_password&amp;quot;, 
             auth = &amp;quot;ntlm&amp;quot;)
 )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Under some circumstances you will get the following error message at this point: &lt;em&gt;Error in curl::curl_fetch_memory(url, handle = handle) : Problem with the SSL CA cert (path? access rights?)&lt;/em&gt;. In this case your security certificate, e.g. &lt;em&gt;curl-ca-bundle.crt&lt;/em&gt; is located in the wrong folder. You have to paste the file into &lt;em&gt;C:/mingw64/ssl/certs&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Under some circumstances you will get the following error message at this point: &lt;em&gt;Error in curl::curl_fetch_memory(url, handle = handle) : Problem with the SSL CA cert (path? access rights?)&lt;/em&gt;.
+In this case your security certificate, e.g. &lt;em&gt;curl-ca-bundle.crt&lt;/em&gt; is located in the wrong folder. You have to paste the file into &lt;em&gt;C:/mingw64/ssl/certs&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Et voilà, we reached our goal to connect R with salesforce.com:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;session &amp;lt;- rforcecom.login(username = username, password = password, loginURL = instanceURL, apiVersion = apiVersion)
 session&lt;/code&gt;&lt;/pre&gt;
@@ -217,16 +270,6 @@ session&lt;/code&gt;&lt;/pre&gt;
       
       <guid>/publication/ps_kitsche/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Testing for qualitative interaction using ratios of treatment differences</title>
-      <link>/talk/icsi_2013_hannover/</link>
-      <pubDate>Tue, 24 Sep 2013 00:00:00 +0200</pubDate>
-      
-      <guid>/talk/icsi_2013_hannover/</guid>
-      <description>&lt;p&gt;This talk was part of the International Conference on Simultaneous Inference.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

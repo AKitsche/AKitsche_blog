@@ -9,6 +9,8 @@ code_folding: hide
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/panelset/panelset.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/panelset/panelset.js"></script>
 
 
 <p>Hey folks,</p>
@@ -22,28 +24,30 @@ code_folding: hide
 <li>adopt this skillset to learn Python</li>
 <li>master to publish the applications using <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">R Markdown</a></li>
 </ul>
-<div id="results" class="section level2 tabset">
-<h2>Results</h2>
-<div id="tab-one" class="section level3">
-<h3>Tab One</h3>
-<pre class="r"><code>head(mtcars)
-##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
-## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
-## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
-## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
-## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
-## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
-## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1</code></pre>
+<div class="panelset">
+<!-- First panel -->
+<div class="panel">
+<p><span class="panel-name">R code</span></p>
+<p>Check the R code below:</p>
+<pre class="r"><code>lm(mpg ~ drat, data = mtcars)</code></pre>
 </div>
-<div id="tab-two" class="section level3">
-<h3>Tab Two</h3>
-<pre class="r"><code>par(mar = c(4, 4, .5, .1))
-plot(mpg ~ hp, data = mtcars, pch = 19)</code></pre>
-<p><img src="/post/tidytuesday_52_2020_files/figure-html/unnamed-chunk-2-1.png" width="480" /></p>
+<!-- Second panel -->
+<div class="panel">
+<p><span class="panel-name">Stata code</span></p>
+<pre><code>regress y x
+</code></pre>
 </div>
+<!-- Third panel -->
+<div class="panel">
+<p><span class="panel-name">R output</span></p>
+<pre><code>## 
+## Call:
+## lm(formula = mpg ~ drat, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         drat  
+##      -7.525        7.678</code></pre>
 </div>
-<div id="section" class="section level2 unnumbered">
-<h2 class="unnumbered"></h2>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>

@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/post/tidytuesday_52_2020/</loc>
+      <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/talk/dplyrtalk_2017_hannover/</loc>
       <lastmod>2017-11-14T00:00:00+01:00</lastmod>
     </url>
@@ -262,7 +271,7 @@
     
     <url>
     
-      <loc>/tags/bonsai/</loc>
+      <loc>/categories/bonsai/</loc>
       <lastmod>2017-04-30T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -272,7 +281,7 @@
     
     <url>
     
-      <loc>/categories/bonsai/</loc>
+      <loc>/tags/bonsai/</loc>
       <lastmod>2017-04-30T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -343,7 +352,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2017-04-30T21:13:14-05:00</lastmod>
+      <lastmod>2021-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -372,8 +381,8 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/python/</loc>
+      <lastmod>2021-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -383,7 +392,27 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/rmarkdown/</loc>
+      <lastmod>2021-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -404,6 +433,16 @@
     
       <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/tidytuesday/</loc>
+      <lastmod>2021-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

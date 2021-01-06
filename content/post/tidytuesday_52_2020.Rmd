@@ -8,6 +8,14 @@ bibliography: ["references.bib", "references_auto.bib"]
 code_folding: hide
 ---
 
+```{r include = FALSE}
+library(xaringanExtra)
+# enable panelset
+use_panelset()
+# style_panelset_tabs(foreground = "honeydew", background = "seagreen")
+```
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 if (!require("pacman")) install.packages("pacman")
@@ -35,21 +43,36 @@ The goal of this series is to help me
 * adopt this skillset to learn Python
 * master to publish the applications using [R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/)
 
-## Results {.tabset .tabset-fade .tabset-pills}
+::::: {.panelset}
 
-### Tab One
+<!-- First panel -->
+::: {.panel}
+[R code]{.panel-name}
 
-```{r}
-head(mtcars)
+Check the R code below:
+```{r echo = TRUE, eval = FALSE}
+lm(mpg ~ drat, data = mtcars)
 ```
+:::
 
-### Tab Two
+<!-- Second panel -->
+::: {.panel}
+[Stata code]{.panel-name}
 
-```{r, fig.dim=c(5, 3)}
-par(mar = c(4, 4, .5, .1))
-plot(mpg ~ hp, data = mtcars, pch = 19)
 ```
+regress y x
 
-## {-}
+```
+:::
+
+<!-- Third panel -->
+::: {.panel}
+[R output]{.panel-name}
+```{r echo = FALSE, eval = TRUE}
+lm(mpg ~ drat, data = mtcars)
+```
+:::
+
+::::
 
 # References
